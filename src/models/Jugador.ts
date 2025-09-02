@@ -1,9 +1,11 @@
+import type { IIdentificable } from "../interfaces/IIdentificables";
+
 export class Jugador {
-    id: string;
+    id: IIdentificable
     nombre: string;
     edad: number;
     posicion?: string;
-    constructor(id: string, nombre: string, edad: number, posicion?: string) {
+    constructor(id: IIdentificable, nombre: string, edad: number, posicion?: string) {
         this.id = id;
         this.nombre = nombre;
         this.edad = edad;

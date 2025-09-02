@@ -1,7 +1,7 @@
 import { Deporte } from "./Deporte";
 import type { Equipo } from "./Equipo";
 
-export class Futbol extends Deporte {
+export class Basquet extends Deporte {
     constructor() {
         super("Basquet", 5);
     }
